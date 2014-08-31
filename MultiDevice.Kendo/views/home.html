@@ -1,0 +1,18 @@
+﻿
+<div id="view-home" data-role="view" data-layout="default" class="home-view" data-show="app.views.Home.onShow" data-model="app.views.Home">
+    
+    <ul id="friends-listview" data-style="inset" data-role="listview" data-template="friendListTemplate" data-bind="source: viewModel.friends"></ul>
+
+</div>
+
+<!-- Friends ListView Template -->
+<script type="text/x-kendo-template" id="friendListTemplate">
+    <div class="cf">
+        <div class="user-avatar">
+            <img data-bind="attr:{src: PictureUrl}" alt="images/avatar.png" />
+        </div>
+        <div class="friend-content">
+            <h2 class="person-name" data-bind="text: Name"></h2>
+        </div>
+    </div>
+</script>
