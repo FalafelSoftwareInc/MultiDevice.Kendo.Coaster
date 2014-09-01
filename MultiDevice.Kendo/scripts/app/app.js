@@ -10,10 +10,19 @@ app.startup = (function (win) {
 
     });
 
+    //Global init
     var init = function() {
         initMobile();
+        initPlugins();
     };
 
+    //Init mobile plugins
+    var initPlugins = function () {
+        app.alerts.initToastr();
+        app.logger.initLogger();
+    };
+
+    //Init mobile app
     var initMobile = function () {
 
         //Array to hold all the views
@@ -70,18 +79,22 @@ app.startup = (function (win) {
     };
 
     var onPause = function() {
-        // TODO: This application has been suspended. Save application state here.
+        
     };
 
     var onResume = function() {
-        // TODO: This application has been reactivated. Restore application state here.
+        
     };
 
-    var onOnline = function() {
+    var onOnline = function () {
+
+        amplify.publish("/app/online");
 
     };
 
-    var onOffline = function() {
+    var onOffline = function () {
+
+        amplify.publish("/app/offline");
 
     };
 

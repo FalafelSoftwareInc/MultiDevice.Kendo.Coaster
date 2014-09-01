@@ -101,6 +101,9 @@
     <Content Include="images\avatar.png" />
     <Content Include="scripts\app\app.js" />
     <Content Include="scripts\app\home.js" />
+    <Content Include="scripts\app\utils\alerts.js" />
+    <Content Include="scripts\app\utils\helpers.js" />
+    <Content Include="scripts\app\utils\logger.js" />
     <Content Include="views\home.html" />
     <Content Include="views\settings.html" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />

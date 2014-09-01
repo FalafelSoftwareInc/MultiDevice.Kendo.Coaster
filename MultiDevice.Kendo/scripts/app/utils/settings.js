@@ -2,5 +2,7 @@
 
 app.settings = {
     
+    logToConsole: true,
+    defaultLogAjaxUrl: ""
 
 };
