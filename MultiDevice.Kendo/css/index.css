@@ -1,2 +1,44 @@
 ﻿body {
 }
+
+#view-home .km-content,
+#view-home .km-content,
+#view-home .km-content,
+#view-home .km-listview {
+    background-color: #fff;
+}
+
+#view-home .km-list > li {
+    padding: .75em 0;
+    border-width: 0 0 1px;
+    border-color: #eaeced;
+    color: #34495e;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible;
+}
+
+#view-home .km-list > li:first-child {
+    padding-top: 0;
+}
+
+.user-avatar {
+    float: left;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.user-avatar img {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+
+.friend-content .person-name {
+    font-weight: 600;
+    padding-top: 10px;
+}
