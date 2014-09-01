@@ -99,7 +99,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="images\avatar.png" />
-    <Content Include="Project_Readme.html" />
     <Content Include="scripts\app\app.js" />
     <Content Include="scripts\app\home.js" />
     <Content Include="scripts\app\utils\alerts.js" />
